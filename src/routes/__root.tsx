@@ -1,10 +1,12 @@
 import { HeadContent, Scripts, createRootRoute } from "@tanstack/react-router"
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools"
 import { TanStackDevtools } from "@tanstack/react-devtools"
+import { dashboardSearchSchema } from "@/lib/dashboard-search"
 
 import appCss from "../styles.css?url"
 
 export const Route = createRootRoute({
+  validateSearch: dashboardSearchSchema,
   head: () => ({
     meta: [
       {
@@ -15,7 +17,7 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        title: "Kliniko · Clinic Workspace",
       },
     ],
     links: [

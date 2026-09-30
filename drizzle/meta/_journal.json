@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790260403890,
+      "tag": "0000_known_obadiah_stane",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790336126360,
+      "tag": "0001_keen_cloak",
+      "breakpoints": true
+    }
+  ]
+}
